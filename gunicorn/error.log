@@ -1,0 +1,176 @@
+[2024-05-29 14:49:14 +0900] [52203] [INFO] Starting gunicorn 22.0.0
+[2024-05-29 14:49:14 +0900] [52203] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-05-29 14:49:14 +0900] [52203] [ERROR] Retrying in 1 second.
+[2024-05-29 14:49:15 +0900] [52203] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-05-29 14:49:15 +0900] [52203] [ERROR] Retrying in 1 second.
+[2024-05-29 14:49:16 +0900] [52203] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-05-29 14:49:16 +0900] [52203] [ERROR] Retrying in 1 second.
+[2024-05-29 14:49:17 +0900] [52203] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-05-29 14:49:17 +0900] [52203] [ERROR] Retrying in 1 second.
+[2024-05-29 14:49:18 +0900] [52203] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-05-29 14:49:18 +0900] [52203] [ERROR] Retrying in 1 second.
+[2024-05-29 14:49:19 +0900] [52203] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-05-29 14:49:31 +0900] [52278] [INFO] Starting gunicorn 22.0.0
+[2024-05-29 14:49:31 +0900] [52278] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-05-29 14:49:31 +0900] [52278] [ERROR] Retrying in 1 second.
+[2024-05-29 14:49:32 +0900] [52278] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-05-29 14:49:32 +0900] [52278] [ERROR] Retrying in 1 second.
+[2024-05-29 14:49:33 +0900] [52278] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-05-29 14:49:33 +0900] [52278] [ERROR] Retrying in 1 second.
+[2024-05-29 14:49:34 +0900] [52278] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-05-29 14:49:34 +0900] [52278] [ERROR] Retrying in 1 second.
+[2024-05-29 14:49:35 +0900] [52278] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-05-29 14:49:35 +0900] [52278] [ERROR] Retrying in 1 second.
+[2024-05-29 14:49:36 +0900] [52278] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-05-29 14:50:05 +0900] [52435] [INFO] Starting gunicorn 22.0.0
+[2024-05-29 14:50:05 +0900] [52435] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-05-29 14:50:05 +0900] [52435] [ERROR] Retrying in 1 second.
+[2024-05-29 14:50:06 +0900] [52435] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-05-29 14:50:06 +0900] [52435] [ERROR] Retrying in 1 second.
+[2024-05-29 14:50:07 +0900] [52435] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-05-29 14:50:07 +0900] [52435] [ERROR] Retrying in 1 second.
+[2024-05-29 14:50:08 +0900] [52435] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-05-29 14:50:08 +0900] [52435] [ERROR] Retrying in 1 second.
+[2024-05-29 14:50:09 +0900] [52435] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-05-29 14:50:09 +0900] [52435] [ERROR] Retrying in 1 second.
+[2024-05-29 14:50:10 +0900] [52435] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-05-29 14:51:21 +0900] [52622] [INFO] Starting gunicorn 22.0.0
+[2024-05-29 14:51:21 +0900] [52622] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-05-29 14:51:21 +0900] [52622] [ERROR] Retrying in 1 second.
+[2024-05-29 14:51:22 +0900] [52622] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-05-29 14:51:22 +0900] [52622] [ERROR] Retrying in 1 second.
+[2024-05-29 14:51:23 +0900] [52622] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-05-29 14:51:23 +0900] [52622] [ERROR] Retrying in 1 second.
+[2024-05-29 14:51:24 +0900] [52622] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-05-29 14:51:24 +0900] [52622] [ERROR] Retrying in 1 second.
+[2024-05-29 14:51:25 +0900] [52622] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-05-29 14:51:25 +0900] [52622] [ERROR] Retrying in 1 second.
+[2024-05-29 14:51:26 +0900] [52622] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-05-29 15:12:34 +0900] [56374] [INFO] Starting gunicorn 22.0.0
+[2024-05-29 15:12:34 +0900] [56374] [INFO] Listening at: http://0.0.0.0:8000 (56374)
+[2024-05-29 15:12:34 +0900] [56374] [INFO] Using worker: sync
+[2024-05-29 15:12:34 +0900] [56375] [INFO] Booting worker with pid: 56375
+[2024-05-29 15:13:29 +0900] [56374] [INFO] Handling signal: int
+[2024-05-29 15:13:29 +0900] [56375] [ERROR] Error handling request (no URI read)
+Traceback (most recent call last):
+  File "/root/workspace/django_data_process/django_venv/lib/python3.12/site-packages/gunicorn/workers/sync.py", line 134, in handle
+    req = next(parser)
+          ^^^^^^^^^^^^
+  File "/root/workspace/django_data_process/django_venv/lib/python3.12/site-packages/gunicorn/http/parser.py", line 42, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.source_addr, self.req_count)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/workspace/django_data_process/django_venv/lib/python3.12/site-packages/gunicorn/http/message.py", line 257, in __init__
+    super().__init__(cfg, unreader, peer_addr)
+  File "/root/workspace/django_data_process/django_venv/lib/python3.12/site-packages/gunicorn/http/message.py", line 60, in __init__
+    unused = self.parse(self.unreader)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/workspace/django_data_process/django_venv/lib/python3.12/site-packages/gunicorn/http/message.py", line 269, in parse
+    self.get_data(unreader, buf, stop=True)
+  File "/root/workspace/django_data_process/django_venv/lib/python3.12/site-packages/gunicorn/http/message.py", line 260, in get_data
+    data = unreader.read()
+           ^^^^^^^^^^^^^^^
+  File "/root/workspace/django_data_process/django_venv/lib/python3.12/site-packages/gunicorn/http/unreader.py", line 37, in read
+    d = self.chunk()
+        ^^^^^^^^^^^^
+  File "/root/workspace/django_data_process/django_venv/lib/python3.12/site-packages/gunicorn/http/unreader.py", line 64, in chunk
+    return self.sock.recv(self.mxchunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/workspace/django_data_process/django_venv/lib/python3.12/site-packages/gunicorn/workers/base.py", line 197, in handle_quit
+    time.sleep(0.1)
+  File "/root/workspace/django_data_process/django_venv/lib/python3.12/site-packages/gunicorn/workers/base.py", line 198, in handle_quit
+    sys.exit(0)
+SystemExit: 0
+[2024-05-29 15:13:29 +0900] [56375] [INFO] Worker exiting (pid: 56375)
+[2024-05-29 15:13:30 +0900] [56374] [INFO] Shutting down: Master
+[2024-05-29 15:13:41 +0900] [56693] [INFO] Starting gunicorn 22.0.0
+[2024-05-29 15:13:41 +0900] [56693] [INFO] Listening at: http://0.0.0.0:8000 (56693)
+[2024-05-29 15:13:41 +0900] [56693] [INFO] Using worker: sync
+[2024-05-29 15:13:41 +0900] [56694] [INFO] Booting worker with pid: 56694
+[2024-05-29 15:13:41 +0900] [56695] [INFO] Booting worker with pid: 56695
+[2024-05-29 15:15:37 +0900] [56693] [INFO] Handling signal: int
+[2024-05-29 15:15:38 +0900] [56695] [INFO] Worker exiting (pid: 56695)
+[2024-05-29 15:15:38 +0900] [56694] [INFO] Worker exiting (pid: 56694)
+[2024-05-29 15:15:38 +0900] [56693] [ERROR] Worker (pid:56694) was sent SIGINT!
+[2024-05-29 15:15:38 +0900] [56693] [ERROR] Worker (pid:56695) was sent SIGINT!
+[2024-05-29 15:15:38 +0900] [56693] [INFO] Shutting down: Master
+[2024-05-29 15:15:39 +0900] [56947] [INFO] Starting gunicorn 22.0.0
+[2024-05-29 15:15:39 +0900] [56947] [INFO] Listening at: http://0.0.0.0:8000 (56947)
+[2024-05-29 15:15:39 +0900] [56947] [INFO] Using worker: sync
+[2024-05-29 15:15:39 +0900] [56948] [INFO] Booting worker with pid: 56948
+[2024-05-29 15:15:40 +0900] [56949] [INFO] Booting worker with pid: 56949
+[2024-05-29 15:15:50 +0900] [56947] [INFO] Handling signal: int
+[2024-05-29 15:15:50 +0900] [56948] [INFO] Worker exiting (pid: 56948)
+[2024-05-29 15:15:50 +0900] [56949] [INFO] Worker exiting (pid: 56949)
+[2024-05-29 15:15:50 +0900] [56947] [INFO] Shutting down: Master
+[2024-05-29 15:16:28 +0900] [57122] [INFO] Starting gunicorn 22.0.0
+[2024-05-29 15:16:28 +0900] [57122] [INFO] Listening at: http://0.0.0.0:8000 (57122)
+[2024-05-29 15:16:28 +0900] [57122] [INFO] Using worker: sync
+[2024-05-29 15:16:28 +0900] [57124] [INFO] Booting worker with pid: 57124
+[2024-05-29 15:16:28 +0900] [57125] [INFO] Booting worker with pid: 57125
+[2024-05-29 15:16:43 +0900] [57122] [INFO] Handling signal: term
+[2024-05-29 15:16:48 +0900] [57124] [INFO] Worker exiting (pid: 57124)
+[2024-05-29 15:16:49 +0900] [57125] [INFO] Worker exiting (pid: 57125)
+[2024-05-29 15:16:50 +0900] [57122] [INFO] Shutting down: Master
+[2024-05-29 15:17:25 +0900] [57345] [INFO] Starting gunicorn 22.0.0
+[2024-05-29 15:17:25 +0900] [57345] [INFO] Listening at: http://0.0.0.0:8000 (57345)
+[2024-05-29 15:17:25 +0900] [57345] [INFO] Using worker: sync
+[2024-05-29 15:17:25 +0900] [57347] [INFO] Booting worker with pid: 57347
+[2024-05-29 15:17:25 +0900] [57348] [INFO] Booting worker with pid: 57348
+[2024-05-29 15:17:25 +0900] [57349] [INFO] Booting worker with pid: 57349
+[2024-05-29 15:17:45 +0900] [57345] [INFO] Handling signal: term
+[2024-05-29 15:17:45 +0900] [57347] [INFO] Worker exiting (pid: 57347)
+[2024-05-29 15:17:51 +0900] [57348] [INFO] Worker exiting (pid: 57348)
+[2024-05-29 15:18:02 +0900] [57349] [INFO] Worker exiting (pid: 57349)
+[2024-05-29 15:18:02 +0900] [57345] [INFO] Shutting down: Master
+[2024-05-29 15:19:49 +0900] [57739] [INFO] Starting gunicorn 22.0.0
+[2024-05-29 15:19:49 +0900] [57739] [INFO] Listening at: http://0.0.0.0:8000 (57739)
+[2024-05-29 15:19:49 +0900] [57739] [INFO] Using worker: sync
+[2024-05-29 15:19:49 +0900] [57741] [INFO] Booting worker with pid: 57741
+[2024-05-29 15:19:49 +0900] [57742] [INFO] Booting worker with pid: 57742
+[2024-05-29 15:19:49 +0900] [57743] [INFO] Booting worker with pid: 57743
+[2024-05-29 15:21:53 +0900] [57739] [CRITICAL] WORKER TIMEOUT (pid:57743)
+[2024-05-29 15:21:53 +0900] [57743] [ERROR] Error handling request (no URI read)
+Traceback (most recent call last):
+  File "/root/workspace/django_data_process/django_venv/lib/python3.12/site-packages/gunicorn/workers/sync.py", line 134, in handle
+    req = next(parser)
+          ^^^^^^^^^^^^
+  File "/root/workspace/django_data_process/django_venv/lib/python3.12/site-packages/gunicorn/http/parser.py", line 42, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.source_addr, self.req_count)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/workspace/django_data_process/django_venv/lib/python3.12/site-packages/gunicorn/http/message.py", line 257, in __init__
+    super().__init__(cfg, unreader, peer_addr)
+  File "/root/workspace/django_data_process/django_venv/lib/python3.12/site-packages/gunicorn/http/message.py", line 60, in __init__
+    unused = self.parse(self.unreader)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/workspace/django_data_process/django_venv/lib/python3.12/site-packages/gunicorn/http/message.py", line 269, in parse
+    self.get_data(unreader, buf, stop=True)
+  File "/root/workspace/django_data_process/django_venv/lib/python3.12/site-packages/gunicorn/http/message.py", line 260, in get_data
+    data = unreader.read()
+           ^^^^^^^^^^^^^^^
+  File "/root/workspace/django_data_process/django_venv/lib/python3.12/site-packages/gunicorn/http/unreader.py", line 37, in read
+    d = self.chunk()
+        ^^^^^^^^^^^^
+  File "/root/workspace/django_data_process/django_venv/lib/python3.12/site-packages/gunicorn/http/unreader.py", line 64, in chunk
+    return self.sock.recv(self.mxchunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/workspace/django_data_process/django_venv/lib/python3.12/site-packages/gunicorn/workers/base.py", line 203, in handle_abort
+    sys.exit(1)
+SystemExit: 1
+[2024-05-29 15:21:53 +0900] [57743] [INFO] Worker exiting (pid: 57743)
+[2024-05-29 15:21:53 +0900] [58016] [INFO] Booting worker with pid: 58016
+[2024-05-29 15:25:13 +0900] [57739] [INFO] Handling signal: term
+[2024-05-29 15:25:13 +0900] [57741] [INFO] Worker exiting (pid: 57741)
+[2024-05-29 15:25:13 +0900] [57742] [INFO] Worker exiting (pid: 57742)
+[2024-05-29 15:25:13 +0900] [58016] [INFO] Worker exiting (pid: 58016)
+[2024-05-29 15:25:14 +0900] [57739] [INFO] Shutting down: Master
+[2024-05-29 16:01:26 +0900] [166694] [INFO] Starting gunicorn 22.0.0
+[2024-05-29 16:01:26 +0900] [166694] [INFO] Listening at: http://0.0.0.0:8000 (166694)
+[2024-05-29 16:01:26 +0900] [166694] [INFO] Using worker: sync
+[2024-05-29 16:01:26 +0900] [166696] [INFO] Booting worker with pid: 166696
+[2024-05-29 16:01:26 +0900] [166697] [INFO] Booting worker with pid: 166697
+[2024-05-29 16:01:26 +0900] [166699] [INFO] Booting worker with pid: 166699
+[2024-05-29 16:02:17 +0900] [166694] [INFO] Handling signal: term
+[2024-05-29 16:02:17 +0900] [166696] [INFO] Worker exiting (pid: 166696)
+[2024-05-29 16:02:17 +0900] [166697] [INFO] Worker exiting (pid: 166697)
+[2024-05-29 16:02:17 +0900] [166699] [INFO] Worker exiting (pid: 166699)
+[2024-05-29 16:02:17 +0900] [166694] [INFO] Shutting down: Master

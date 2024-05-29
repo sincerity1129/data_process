@@ -1,0 +1,48 @@
+127.0.0.1 - - [29/May/2024:14:50:25 +0900] "GET /api/v1/data_process HTTP/1.1" 200 594 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/May/2024:14:50:31 +0900] "POST /api/v1/data_process HTTP/1.1" 200 265 "http://localhost:8000/api/v1/data_process" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/May/2024:14:50:32 +0900] "GET /api/v1/data_process HTTP/1.1" 200 594 "http://localhost:8000/api/v1/data_process" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/May/2024:14:51:31 +0900] "GET /api/v1/data_process HTTP/1.1" 200 594 "http://localhost:8000/api/v1/data_process" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/May/2024:14:51:39 +0900] "GET /api/v1/data_process HTTP/1.1" 200 594 "http://localhost:8000/api/v1/data_process" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/May/2024:14:51:42 +0900] "GET /api/v1/data_process HTTP/1.1" 200 594 "http://localhost:8000/api/v1/data_process" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+[2024-05-29 14:53:40 +0900] [52369] [ERROR] Error handling request (no URI read)
+Traceback (most recent call last):
+  File "/root/workspace/django_data_process/django_venv/lib/python3.12/site-packages/gunicorn/workers/sync.py", line 134, in handle
+    req = next(parser)
+          ^^^^^^^^^^^^
+  File "/root/workspace/django_data_process/django_venv/lib/python3.12/site-packages/gunicorn/http/parser.py", line 42, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.source_addr, self.req_count)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/workspace/django_data_process/django_venv/lib/python3.12/site-packages/gunicorn/http/message.py", line 257, in __init__
+    super().__init__(cfg, unreader, peer_addr)
+  File "/root/workspace/django_data_process/django_venv/lib/python3.12/site-packages/gunicorn/http/message.py", line 60, in __init__
+    unused = self.parse(self.unreader)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/workspace/django_data_process/django_venv/lib/python3.12/site-packages/gunicorn/http/message.py", line 269, in parse
+    self.get_data(unreader, buf, stop=True)
+  File "/root/workspace/django_data_process/django_venv/lib/python3.12/site-packages/gunicorn/http/message.py", line 260, in get_data
+    data = unreader.read()
+           ^^^^^^^^^^^^^^^
+  File "/root/workspace/django_data_process/django_venv/lib/python3.12/site-packages/gunicorn/http/unreader.py", line 37, in read
+    d = self.chunk()
+        ^^^^^^^^^^^^
+  File "/root/workspace/django_data_process/django_venv/lib/python3.12/site-packages/gunicorn/http/unreader.py", line 64, in chunk
+    return self.sock.recv(self.mxchunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/workspace/django_data_process/django_venv/lib/python3.12/site-packages/gunicorn/workers/base.py", line 203, in handle_abort
+    sys.exit(1)
+SystemExit: 1
+[2024-05-29 14:53:40 +0900] [52369] [INFO] Worker exiting (pid: 52369)
+127.0.0.1 - - [29/May/2024:14:59:10 +0900] "GET /api/v1/data_process HTTP/1.1" 200 594 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/May/2024:15:12:47 +0900] "GET /api/v1/data_process HTTP/1.1" 200 745 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/May/2024:15:13:14 +0900] "POST /api/v1/data_process HTTP/1.1" 200 0 "http://localhost:8000/api/v1/data_process" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/May/2024:15:13:49 +0900] "GET /api/v1/data_process HTTP/1.1" 200 745 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/May/2024:15:16:34 +0900] "GET /api/v1/data_process HTTP/1.1" 200 745 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/May/2024:15:16:48 +0900] "GET /api/v1/data_process HTTP/1.1" 200 745 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/May/2024:15:16:49 +0900] "GET /api/v1/data_process HTTP/1.1" 200 745 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/May/2024:15:17:37 +0900] "GET /api/v1/data_process HTTP/1.1" 200 745 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/May/2024:15:17:51 +0900] "GET /api/v1/data_process HTTP/1.1" 200 745 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/May/2024:15:18:02 +0900] "GET /api/v1/data_process HTTP/1.1" 200 745 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/May/2024:15:19:52 +0900] "GET /api/v1/data_process HTTP/1.1" 200 745 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/May/2024:15:20:13 +0900] "POST /api/v1/data_process HTTP/1.1" 200 0 "http://localhost:8000/api/v1/data_process" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/May/2024:16:01:32 +0900] "GET /api/v1/data_process HTTP/1.1" 200 745 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/May/2024:16:01:58 +0900] "POST /api/v1/data_process HTTP/1.1" 200 0 "http://localhost:8000/api/v1/data_process" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"

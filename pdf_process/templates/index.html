@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload Example</title>
+</head>
+<body>
+    <h2>PDF 전처리 페이지(파일 제목에 띄어쓰기는 '_' 변경해 주시기 바랍니다.)</h2>
+    <form action="/api/v1/data_process" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" id="file" name="file">
+        <p></p>
+        <button type="submit">파일 전송</button>
+        <h2>파일 크기에 따라 1~2분이 소요될 수 있습니다.</h2>
+    </form>
+</body>
+</html>

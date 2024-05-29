@@ -1,0 +1,37 @@
+# image file
+video_img/*
+data/output/*
+data/streamlit_input/*
+data/video_img/*
+
+# weight file
+.assets/models/*
+
+# Pycharm project files
+.idea/
+
+# Virtual Env directory
+venv/
+.vscode
+# Log, PID
+*.log
+logs/
+run/
+pid/
+
+#file
+*.png
+*.jpg
+*.npy
+
+# INI
+#config/config.ini
+
+# pyc
+*.pyc
+
+# Python cache
+__pycache__/
+
+# Save path
+imagelink/
